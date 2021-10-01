@@ -10,7 +10,7 @@
 
 ```
 
-## second first part of the session
+## second part of the session
 ```
 1.) Setup Python in Windows
 2.) Configure Visual Studio Code in Using Jupyter
