@@ -14,10 +14,11 @@
  
  1.) Setup Python on Windows
  2.) Configure Visual Code in Using Jupyter
-
  3.) PYTHON 101
+ 
       - Variables
       - Input & Ouput
+      
 	--------------------------------------------------
             "To be continued"
             
