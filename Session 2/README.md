@@ -23,7 +23,7 @@
             
           - Selection Statement 	
           - Iteration - For Loops
-          - Iterables - Data Structure
+          - Iterables Data Structure
             - List
             - Tuples
             - Dictionary
