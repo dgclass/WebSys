@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+   <nav>
+    <div class="light-blue nav-wrapper">
+      <a href="#" class="brand-logo"><span>&nbsp;</span> Father Saturnino Urios University</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class='dropdown-trigger btn' href="#!" data-target='dropdown1' >Navbar Link 1</a></li>
+        <li><a href="#!">Navbar Link 2</a></li>        
+        <li><a href="#!">Navbar Link 3</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Dropdown Trigger -->
+  <!-- <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a> -->
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider" tabindex="-1"></li>    
+    <li><a class="modal-trigger" href="#modal1"><i class="material-icons">view_module</i>four</a></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+  </ul>
+        
+
+  <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/200/nature/1"></a>
+    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/200/nature/2"></a>
+    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/200/nature/3"></a>
+    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/200/nature/4"></a>
+    <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/800/200/nature/5"></a>
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Announcement</h4>
+      <p>FSUU Learn : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+        mollit anim id est laborum."</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn orange">Agree</a>
+    </div>
+  </div>
+          
+
+
+
+  <script type="text/javascript" src="./js/materialize.min.js"></script>
+
+  <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.dropdown-trigger');
+            var instances = M.Dropdown.init(elems, {coverTrigger:false});
+        });
+    
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems, {fullWidth: true,indicators: true});            
+          });
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems, {});
+         });
+        
+
+  </script>
+
+</body>
+</html>

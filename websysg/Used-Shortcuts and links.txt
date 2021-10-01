@@ -1,0 +1,48 @@
+ctrl+shift+p = Show Command Palette
+Ctrl+K M = Change file language or Change language mode
+
+
+==================================== LINKS ============================================
+
+navbar   -> https://materializecss.com/navbar.html
+
+dropdown -> https://materializecss.com/dropdown.html
+
+https://materializecss.com/icons.html
+
+https://docs.w3cub.com/dom_events/domcontentloaded.html 
+
+carousel -> https://materializecss.com/carousel.html
+
+
+===================================== CSS ===========================================
+
+
+
+light-blue
+
+<div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/200/nature/1"></a>
+    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/200/nature/2"></a>
+    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/200/nature/3"></a>
+    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/200/nature/4"></a>
+    <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/800/200/nature/5"></a>
+</div>
+
+
+=================================== JAVASCRIPT =========================================
+
+dropdown -> coverTrigger:false
+
+
+ DOMContentLoaded event fires when the initial HTML document has been completely loaded and parsed.
+
+
+
+ =================================== IPSUM LOREM =======================================
+
+ "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+ dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+ ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+ fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+ mollit anim id est laborum."
